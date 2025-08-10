@@ -2,10 +2,17 @@ package com.cpd.hotel_system.lkml_hotel_management_service_api.entity;
 
 import com.cpd.hotel_system.lkml_hotel_management_service_api.enums.BranchType;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Table(name="branch")
 public class Branch {
 
