@@ -10,6 +10,6 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class HotelPaginateResponseDto {
-    private List<ResponseHotelDto> hotels;
+    private List<ResponseHotelDto> dataList;
     private long dataCount;
 }
